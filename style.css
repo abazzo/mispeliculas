@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.movie-list {
+    margin-top: 20px;
+}
+.movie-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.filters {
+    margin-bottom: 20px;
+}
+.filters input, .filters select {
+    margin-right: 10px;
+}

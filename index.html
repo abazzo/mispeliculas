@@ -1,0 +1,39 @@
+<h1>Mi Lista de Películas</h1>
+
+<!-- Formulario para agregar películas -->
+<form id="addMovieForm">
+    <h2>Agregar Película</h2>
+    <label for="title">Nombre:</label>
+    <input type="text" id="title" name="title" required>
+    
+    <label for="director">Director:</label>
+    <input type="text" id="director" name="director" required>
+    
+    <label for="year">Año:</label>
+    <input type="number" id="year" name="year" required>
+    
+    <label for="artMovement">Corriente Artística:</label>
+    <input type="text" id="artMovement" name="artMovement">
+    
+    <label for="genre">Género:</label>
+    <input type="text" id="genre" name="genre">
+    
+    <button type="submit">Agregar Película</button>
+</form>
+
+<!-- Filtros de búsqueda -->
+<div class="filters">
+    <h2>Filtrar Películas</h2>
+    <input type="text" id="filterTitle" placeholder="Nombre">
+    <input type="text" id="filterDirector" placeholder="Director">
+    <input type="number" id="filterYear" placeholder="Año">
+    <input type="text" id="filterArtMovement" placeholder="Corriente Artística">
+    <input type="text" id="filterGenre" placeholder="Género">
+    <button onclick="filterMovies()">Filtrar</button>
+</div>
+
+<!-- Lista de películas -->
+<div class="movie-list" id="movieList">
+    <h2>Mis Películas</h2>
+    <!-- Las películas se agregarán aquí dinámicamente -->
+</div>
